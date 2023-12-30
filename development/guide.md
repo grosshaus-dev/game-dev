@@ -149,6 +149,7 @@ Example of builds leading up to a minor release and patches after it.
 
 For the contents of the UE5 project the following guides are followed. Guides take precedence over each other the higher up on the list they are.
 
+- [Recommended Asset Naming Conventions](https://docs.unrealengine.com/5.2/en-US/recommended-asset-naming-conventions-in-unreal-engine-projects/)
 - [Unreal Naming Convention Guide](https://www.tomlooman.com/unreal-engine-naming-convention-guide/).
 - [Gamemakin LLC Style Guide](https://github.com/Allar/ue5-style-guide).
 
