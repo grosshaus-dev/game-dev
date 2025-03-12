@@ -1,6 +1,6 @@
 # External Links to Read
 
-It's best to read the links in the order listed and them watch the videos.
+It's best to read the links in the order listed and then watch the videos.
 
 ## Unreal Engine
 
