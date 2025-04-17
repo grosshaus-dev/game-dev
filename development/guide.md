@@ -177,10 +177,10 @@ Input Action                | IA_
 Input Mapping Context       | IMC_
 **Blueprints**              |
 Actor Component             | AC_
-Animation Blueprint         | AB_
-Blueprint Interface         | BI_
-Blueprint Function Library  | BFL_
-Blueprint                   | B_
+Animation Blueprint         | ABP_
+Blueprint Interface         | BPI_
+Blueprint Function Library  | BPFL_
+Blueprint                   | BP_
 Curve Table                 | CT_
 Data Table                  | DT_
 Enum                        | E_
