@@ -145,13 +145,89 @@ Example of builds leading up to a minor release and patches after it.
 
 ## Style guides
 
-### Unreal Engine 5
+### Asset Naming Conventions
 
-For the contents of the UE5 project the following guides are followed. Guides take precedence over each other the higher up on the list they are.
+Our conventions are derived from the [Recommended Asset Naming Conventions](https://docs.unrealengine.com/5.2/en-US/recommended-asset-naming-conventions-in-unreal-engine-projects/) and the [Unreal Naming Convention Guide](https://www.tomlooman.com/unreal-engine-naming-convention-guide/). We don't include all the information from the above guides for brevity.
 
-- [Recommended Asset Naming Conventions](https://docs.unrealengine.com/5.2/en-US/recommended-asset-naming-conventions-in-unreal-engine-projects/)
-- [Unreal Naming Convention Guide](https://www.tomlooman.com/unreal-engine-naming-convention-guide/).
-- [Gamemakin LLC Style Guide](https://github.com/Allar/ue5-style-guide).
+Names are always in English with an underscore between the sections. The general form is: `[AssetTypePrefix]_[AssetName]_[Descriptor]_[OptionalVariantLetterOrNumber]`
+
+**Asset** | **Prefix**
+--- | ---
+**General**                 |
+HDRI                        | HDR_
+Material                    | M_
+Material Instance           | MI_
+Physics Asset               | PHYS_
+Physics Material            | PM_
+Post Process Material       | PPM_
+Skeletal Mesh               | SK_
+Static Mesh                 | SM_
+OCIO Profile                | OCIO_
+Vector/Float/Color Curve    | Curve_
+Camera Shake                | CamShake_
+Font                        | Font_
+Render Target               | RT_
+Gameplay Abilities          | GA_
+Gameplay Effects            | GE_
+Gameplay Cue Notifies       | GCN_
+Latent Gameplay Cue Notifies| GCNL_
+Game Phase Abilities        | Phase_
+Ability Set                 | AbilitySet_
+Input Action                | IA_
+Input Mapping Context       | IMC_
+**Blueprints**              |
+Actor Component             | AC_
+Animation Blueprint         | AB_
+Blueprint Interface         | BI_
+Blueprint Function Library  | BFL_
+Blueprint                   | B_
+Curve Table                 | CT_
+Data Table                  | DT_
+Enum                        | E_
+Structure                   | F_
+Widget Blueprint            | W_
+SaveGame                    | Save_
+**Particle Effects**        |
+Niagara Emitter             | FXE_
+Niagara System              | FXS_
+Niagara Function            | FXF_
+Particle System             | P_
+**Skeletal Mesh Animations**|
+Rig                         | Rig_
+Skeleton                    | SKEL_
+Montages                    | AM_
+Animation Sequence          | AS_
+Blend Space                 | BS_
+**ICVFX**                   |
+NDisplay Configuration      | NDC_
+**Animation**
+Level Sequence              | LS_
+Sequencer Edits             | EDIT_
+**Media**                   |
+Sound                       | S_
+Sound Clue                  | S_\*\_Cue
+Sound Wave                  | WAV_
+Media Source                | MS_
+Media Output                | MO_
+Media Player                | MP_
+Media Profile               | MPR_
+**Texture**                 |
+All Textures                | T_
+Diffuse/Color Map           | T_\*\_D
+Normal Map                  | T_\*\_N
+Emissive Map                | T_\*\_E
+Mask Map                    | T_\*\_M
+Roughness Map               | T_\*\_R
+Metallic Map                | T_\*\_MT
+Specular                    | T_\*\_S
+Displacement                | T_\*\_DP
+Ambient Occlusion           | T_\*\_AO
+Height Map                  | T_\*\_H
+Flow Map                    | T_\*\_F
+Light Map (custom)          | T_\*\_L
+**Other**                   |
+Level Snapshots             | SNAP_
+Remote Control Preset       | RCP_
 
 ### C++
 
