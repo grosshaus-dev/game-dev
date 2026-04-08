@@ -107,7 +107,7 @@ Patch for current release |         | patch number      | release
 - Squash commits that you have made locally while working on a trivial new feature.
 - Squash commits that you have made in a feature branch when merging it to the `next` branch.
 - Make sure your commits are signed with your GPG key and show up verified.
-- Use your full name for your commits.
+- Use your full name for your GPG keys and Git name (in .gitconfig).
 
 **As always, go have a coffee, think about it, then push.**
 
