@@ -167,7 +167,8 @@ Static Mesh                 | SM_
 OCIO Profile                | OCIO_
 Vector/Float/Color Curve    | Curve_
 Camera Shake                | CamShake_
-Font                        | Font_
+Font                        | 
+Font Face                   | FontFace_
 Render Target               | RT_
 Gameplay Abilities          | GA_
 Gameplay Effects            | GE_
