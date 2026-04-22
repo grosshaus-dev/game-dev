@@ -168,7 +168,7 @@ OCIO Profile                | OCIO_
 Vector/Float/Color Curve    | Curve_
 Camera Shake                | CamShake_
 Font                        | 
-Font Face                   | FontFace_
+Font Face                   | FF_
 Render Target               | RT_
 Gameplay Abilities          | GA_
 Gameplay Effects            | GE_
